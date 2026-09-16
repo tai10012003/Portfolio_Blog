@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build outputs
+.next/
+**/.next/
+out/
+**/out/
+dist/
+**/dist/
+build/
+**/build/
+
+# Strapi generated files
+.strapi/
+**/.strapi/
+.strapi-updater.json
+**/.strapi-updater.json
+.cache/
+**/.cache/
+.tmp/
+**/.tmp/
+apps/cms/database/
+apps/cms/types/
+
+# environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
