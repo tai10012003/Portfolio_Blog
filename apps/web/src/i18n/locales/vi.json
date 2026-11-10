@@ -1,0 +1,189 @@
+{
+  "home": {
+    "navItems": [
+      {
+        "label": "Trang chủ",
+        "href": "#home"
+      },
+      {
+        "label": "Giới thiệu",
+        "href": "#about"
+      },
+      {
+        "label": "Kỹ năng",
+        "href": "#skills"
+      },
+      {
+        "label": "Kinh nghiệm",
+        "href": "#experience"
+      },
+      {
+        "label": "Dự án",
+        "href": "#projects"
+      },
+      {
+        "label": "Blog",
+        "href": "#blog"
+      },
+      {
+        "label": "Liên hệ",
+        "href": "#contact"
+      }
+    ],
+    "stats": [
+      {
+        "value": "3+",
+        "label": "năm xây dựng sản phẩm web"
+      },
+      {
+        "value": "12",
+        "label": "dự án và thử nghiệm cá nhân"
+      },
+      {
+        "value": "40+",
+        "label": "ghi chú kỹ thuật tích lũy"
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "group": "Frontend"
+      },
+      {
+        "name": "Next.js",
+        "group": "Frontend"
+      },
+      {
+        "name": "TypeScript",
+        "group": "Ngôn ngữ"
+      },
+      {
+        "name": "Node.js",
+        "group": "Backend"
+      },
+      {
+        "name": "Docker",
+        "group": "DevOps"
+      },
+      {
+        "name": "AWS",
+        "group": "Cloud"
+      }
+    ],
+    "experiences": [
+      {
+        "role": "Fullstack Developer",
+        "period": "2024 - Hiện tại",
+        "description": "Xây dựng giao diện với React và Next.js, phát triển API Node.js, đồng thời chuẩn bị luồng triển khai bằng Docker."
+      },
+      {
+        "role": "Frontend Developer",
+        "period": "2022 - 2024",
+        "description": "Tập trung vào hệ thống giao diện có khả năng mở rộng, quản lý state, tối ưu hiệu năng và trải nghiệm người dùng."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Portfolio Blog CMS",
+        "summary": "Website cá nhân kết hợp portfolio và blog kỹ thuật, quản lý nội dung bằng headless CMS.",
+        "stack": [
+          "Next.js",
+          "Strapi",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Developer Task Hub",
+        "summary": "Dashboard quản lý task, ghi chú lập trình và tiến độ học tập.",
+        "stack": [
+          "React",
+          "Node.js",
+          "Docker"
+        ]
+      },
+      {
+        "title": "System Design Notes",
+        "summary": "Không gian lưu trữ kiến thức về kiến trúc, caching, queue và scaling.",
+        "stack": [
+          "TypeScript",
+          "Markdown",
+          "AWS"
+        ]
+      }
+    ],
+    "posts": [
+      {
+        "title": "Khi nào nên dùng Server Components trong Next.js?",
+        "category": "React",
+        "readTime": "6 phút đọc"
+      },
+      {
+        "title": "Docker Compose cho môi trường fullstack local",
+        "category": "Docker",
+        "readTime": "8 phút đọc"
+      },
+      {
+        "title": "Những lỗi API thường gặp khi xây backend Node.js",
+        "category": "Node.js",
+        "readTime": "7 phút đọc"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fullstack Developer",
+      "primaryCta": "Xem dự án",
+      "secondaryCta": "Đọc blog",
+      "greeting": "Chào bạn, mình là Tài.",
+      "title": "Làm web với sự chỉn chu.\nChia sẻ những điều học được.",
+      "description": "Mình là một Fullstack Developer. Đây là góc nhỏ để mình giới thiệu những dự án đã làm, ghi lại trải nghiệm lập trình và kết nối với những người cùng yêu công nghệ.",
+      "stackLabel": "Những công nghệ mình làm việc cùng",
+      "avatarAlt": "Ảnh chân dung Pham Duc Tai",
+      "profileNote": "Một chút về mình, một chút về công nghệ.",
+      "profileEyebrow": "Pham Duc Tai",
+      "profileTitle": "Fullstack Developer",
+      "profileBadge": "Portfolio & Blog"
+    },
+    "about": {
+      "eyebrow": "Giới thiệu",
+      "title": "Một chút về mình",
+      "description": "Mình theo đuổi công việc phát triển web, từ xây dựng giao diện đến thiết kế API, làm việc với database và triển khai sản phẩm. Mình thích tìm hiểu cách mọi thứ hoạt động, giải quyết những vấn đề thực tế và làm cho sản phẩm tốt hơn từng chút một.",
+      "note": "Học qua việc làm. Ghi lại để hiểu sâu hơn."
+    },
+    "skillsIntro": {
+      "eyebrow": "Kỹ năng",
+      "title": "Bộ công cụ quen thuộc",
+      "description": "Những công nghệ mình sử dụng và tìm hiểu trong quá trình xây dựng sản phẩm web."
+    },
+    "experienceIntro": {
+      "eyebrow": "Kinh nghiệm",
+      "title": "Hành trình làm việc",
+      "description": "Những chặng đường giúp mình trưởng thành hơn trong cách viết code và xây dựng sản phẩm."
+    },
+    "projectsIntro": {
+      "eyebrow": "Dự án",
+      "actionLabel": "Trao đổi về dự án",
+      "title": "Những dự án mình đã làm"
+    },
+    "blogIntro": {
+      "eyebrow": "Blog",
+      "title": "Ghi chép của một Developer",
+      "description": "Chia sẻ về lập trình, những bài toán từng gặp và các bài học mình rút ra trong quá trình làm việc."
+    },
+    "contact": {
+      "eyebrow": "Liên hệ",
+      "email": "hello@example.com",
+      "title": "Cùng bắt đầu một cuộc trò chuyện.",
+      "description": "Bạn có một ý tưởng, một cơ hội hợp tác hay đơn giản là muốn trao đổi về lập trình? Mình rất vui được kết nối."
+    },
+    "footer": {
+      "brand": "Pham Duc Tai · Portfolio & Blog",
+      "navLabel": "Liên kết cuối trang",
+      "backToTop": "Về đầu trang",
+      "description": "Một góc nhỏ về những sản phẩm mình xây dựng, điều mình học được và hành trình làm Developer.",
+      "exploreLabel": "Khám phá",
+      "noteTitle": "Luôn học hỏi. Luôn xây dựng.",
+      "note": "Mỗi dòng code là một cơ hội để làm tốt hơn hôm qua.",
+      "signature": "Được xây dựng bằng sự chỉn chu và một chút tò mò."
+    },
+    "skipLink": "Đến nội dung chính"
+  }
+}

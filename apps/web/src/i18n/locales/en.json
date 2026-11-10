@@ -1,0 +1,189 @@
+{
+  "home": {
+    "navItems": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Blog",
+        "href": "#blog"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years building web products"
+      },
+      {
+        "value": "12",
+        "label": "Projects and experiments"
+      },
+      {
+        "value": "40+",
+        "label": "Technical notes collected"
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "group": "Frontend"
+      },
+      {
+        "name": "Next.js",
+        "group": "Frontend"
+      },
+      {
+        "name": "TypeScript",
+        "group": "Language"
+      },
+      {
+        "name": "Node.js",
+        "group": "Backend"
+      },
+      {
+        "name": "Docker",
+        "group": "DevOps"
+      },
+      {
+        "name": "AWS",
+        "group": "Cloud"
+      }
+    ],
+    "experiences": [
+      {
+        "role": "Fullstack Developer",
+        "period": "2024 - Present",
+        "description": "Build product interfaces with React and Next.js, develop Node.js APIs, and prepare deployment flows with Docker."
+      },
+      {
+        "role": "Frontend Developer",
+        "period": "2022 - 2024",
+        "description": "Focused on scalable UI systems, state management, performance optimization, and practical user experience."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Portfolio Blog CMS",
+        "summary": "A personal portfolio and technical blog powered by a headless CMS.",
+        "stack": [
+          "Next.js",
+          "Strapi",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Developer Task Hub",
+        "summary": "A dashboard for managing tasks, dev notes, and learning progress.",
+        "stack": [
+          "React",
+          "Node.js",
+          "Docker"
+        ]
+      },
+      {
+        "title": "System Design Notes",
+        "summary": "A knowledge base for architecture, caching, queues, and scaling notes.",
+        "stack": [
+          "TypeScript",
+          "Markdown",
+          "AWS"
+        ]
+      }
+    ],
+    "posts": [
+      {
+        "title": "When should you use Server Components in Next.js?",
+        "category": "React",
+        "readTime": "6 min read"
+      },
+      {
+        "title": "Docker Compose for local fullstack development",
+        "category": "Docker",
+        "readTime": "8 min read"
+      },
+      {
+        "title": "Common API mistakes when building Node.js backends",
+        "category": "Node.js",
+        "readTime": "7 min read"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fullstack Developer",
+      "primaryCta": "View projects",
+      "secondaryCta": "Read blog",
+      "greeting": "Hi there, I'm Tai.",
+      "title": "Building with care.\nSharing what I learn.",
+      "description": "I'm a fullstack developer. This is my little corner of the internet to share projects, write about life as a developer, and connect with people who enjoy building things.",
+      "stackLabel": "Technologies I work with",
+      "avatarAlt": "Portrait of Pham Duc Tai",
+      "profileNote": "A little about me. A little about technology.",
+      "profileEyebrow": "Pham Duc Tai",
+      "profileTitle": "Fullstack Developer",
+      "profileBadge": "Portfolio & Blog"
+    },
+    "about": {
+      "eyebrow": "About Me",
+      "title": "A little about me",
+      "description": "I enjoy developing for the web, from building interfaces to designing APIs, working with databases, and shipping products. I like understanding how things work, solving practical problems, and making a product a little better every day.",
+      "note": "Learn by building. Write to understand."
+    },
+    "skillsIntro": {
+      "eyebrow": "Skills",
+      "title": "My everyday toolkit",
+      "description": "Technologies I use and explore while building web products."
+    },
+    "experienceIntro": {
+      "eyebrow": "Experience",
+      "title": "The journey so far",
+      "description": "Experiences that have shaped how I write code and build products."
+    },
+    "projectsIntro": {
+      "eyebrow": "Projects",
+      "actionLabel": "Discuss a project",
+      "title": "Things I've been building"
+    },
+    "blogIntro": {
+      "eyebrow": "Blog",
+      "title": "Notes from a developer",
+      "description": "Thoughts on programming, problems I've worked through, and lessons learned along the way."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "email": "hello@example.com",
+      "title": "Good things start with a conversation.",
+      "description": "Have an idea, a collaboration in mind, or just want to talk about programming? I'd love to connect."
+    },
+    "footer": {
+      "brand": "Pham Duc Tai · Portfolio & Blog",
+      "navLabel": "Footer links",
+      "backToTop": "Back to top",
+      "description": "A little corner for the things I build, the lessons I learn, and my journey as a developer.",
+      "exploreLabel": "Explore",
+      "noteTitle": "Keep learning. Keep building.",
+      "note": "Every line of code is a chance to do a little better than yesterday.",
+      "signature": "Built with care and a little curiosity."
+    },
+    "skipLink": "Skip to main content"
+  }
+}

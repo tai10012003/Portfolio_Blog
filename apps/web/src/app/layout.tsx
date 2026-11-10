@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin", "vietnamese"],
-  variable: "--font-inter",
-});
+import { themeInitializationScript } from "@/lib/theme";
 
 export const metadata: Metadata = {
-  title: "Portfolio Blog",
-  description: "Personal portfolio and technical blog for a developer.",
+  title: "Pham Duc Tai — Portfolio & Blog",
+  description: "Website cá nhân của Pham Duc Tai: dự án, hành trình làm Developer và những ghi chép về lập trình.",
 };
 
 export default function RootLayout({
@@ -18,8 +13,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+    <html lang="vi" data-theme="light" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitializationScript }} />
+      </head>
+      <body className="antialiased" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
