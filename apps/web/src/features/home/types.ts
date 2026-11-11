@@ -47,6 +47,7 @@ export type HeroContent = {
 };
 
 export type AboutContent = {
+  readMoreLabel: string;
   note: string;
   eyebrow: string;
   title: string;

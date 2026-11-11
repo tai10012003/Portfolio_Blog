@@ -20,7 +20,7 @@ export function HomeView() {
   useEffect(() => { document.documentElement.lang = locale; }, [locale]);
 
   return (
-    <div className="home-page">
+    <div className="home-page" id="page-top">
       <a className="skip-link" href="#main-content">{content.skipLink}</a>
       <SiteHeader locale={locale} navItems={content.navItems} onLocaleChange={setLocale} />
       <main id="main-content">

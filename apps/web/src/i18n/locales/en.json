@@ -7,7 +7,7 @@
       },
       {
         "label": "About",
-        "href": "#about"
+        "href": "/about"
       },
       {
         "label": "Skills",
@@ -143,6 +143,7 @@
       "profileBadge": "Portfolio & Blog"
     },
     "about": {
+      "readMoreLabel": "More about me",
       "eyebrow": "About Me",
       "title": "A little about me",
       "description": "I enjoy developing for the web, from building interfaces to designing APIs, working with databases, and shipping products. I like understanding how things work, solving practical problems, and making a product a little better every day.",
@@ -185,5 +186,55 @@
       "signature": "Built with care and a little curiosity."
     },
     "skipLink": "Skip to main content"
+  },
+  "aboutPage": {
+    "breadcrumb": "About",
+    "eyebrow": "THE PERSON BEHIND THE CODE",
+    "title": "A little about me,\nand what drives me.",
+    "intro": "I'm Tai, a developer who enjoys building for the web and sharing lessons from the journey.",
+    "storyLabel": "01 / My story",
+    "storyTitle": "From lines of code to something useful.",
+    "storyParagraphs": [
+      "I'm working towards being a fullstack developer: going beyond interfaces to understand how APIs, databases, and infrastructure come together in a complete product.",
+      "I enjoy solving practical problems, understanding why a solution works, and improving things a little at a time. Every project is also an opportunity to learn something new."
+    ],
+    "quote": "Learn by building. Write to understand.",
+    "role": "Fullstack Developer",
+    "portraitAlt": "Portrait of Pham Duc Tai",
+    "profileCaption": "Build · Learn · Share",
+    "projectCta": "Explore my projects",
+    "contactCta": "Let's connect",
+    "principlesLabel": "02 / How I work",
+    "principlesTitle": "Care in the small details.",
+    "principlesDescription": "The principles I work towards when writing code and building products.",
+    "principles": [
+      {
+        "title": "Understand the problem",
+        "description": "Start with practical needs and the user experience, then choose technology that fits the problem."
+      },
+      {
+        "title": "Keep things clear",
+        "description": "Favor readable code, components with clear responsibilities, and solutions that match the scope."
+      },
+      {
+        "title": "Learn and share",
+        "description": "Write down experiments, problems, and solutions to understand more deeply and help others learn along the way."
+      }
+    ],
+    "learningLabel": "03 / Always learning",
+    "learningTitle": "Build to learn.\nWrite to understand.",
+    "learningDescription": "I'm interested in the full journey of a product, from its user interface to the backend, databases, and deployment.",
+    "learningTopics": [
+      "React & Next.js",
+      "Node.js & APIs",
+      "Docker & deployment",
+      "AWS & Cloud",
+      "System Design"
+    ],
+    "writingTitle": "The lessons go beyond code.",
+    "writingDescription": "My blog is a space for developer experiences, problems I've worked through, and technical notes from the learning process.",
+    "writingCta": "Visit the blog",
+    "closingTitle": "Now you know a little more about me.",
+    "closingDescription": "Take a look at what I'm building, or start a conversation about technology and products."
   }
 }

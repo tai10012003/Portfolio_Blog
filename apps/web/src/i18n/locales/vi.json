@@ -7,7 +7,7 @@
       },
       {
         "label": "Giới thiệu",
-        "href": "#about"
+        "href": "/about"
       },
       {
         "label": "Kỹ năng",
@@ -143,6 +143,7 @@
       "profileBadge": "Portfolio & Blog"
     },
     "about": {
+      "readMoreLabel": "Tìm hiểu thêm về mình",
       "eyebrow": "Giới thiệu",
       "title": "Một chút về mình",
       "description": "Mình theo đuổi công việc phát triển web, từ xây dựng giao diện đến thiết kế API, làm việc với database và triển khai sản phẩm. Mình thích tìm hiểu cách mọi thứ hoạt động, giải quyết những vấn đề thực tế và làm cho sản phẩm tốt hơn từng chút một.",
@@ -185,5 +186,55 @@
       "signature": "Được xây dựng bằng sự chỉn chu và một chút tò mò."
     },
     "skipLink": "Đến nội dung chính"
+  },
+  "aboutPage": {
+    "breadcrumb": "Giới thiệu",
+    "eyebrow": "CON NGƯỜI PHÍA SAU NHỮNG DÒNG CODE",
+    "title": "Một chút về mình,\nvà điều mình theo đuổi.",
+    "intro": "Mình là Tài, một Developer thích xây dựng sản phẩm web và chia sẻ những bài học trên hành trình đó.",
+    "storyLabel": "01 / Câu chuyện của mình",
+    "storyTitle": "Từ những dòng code đến một sản phẩm có ích.",
+    "storyParagraphs": [
+      "Mình theo đuổi hướng Fullstack Developer: không chỉ làm giao diện, mà còn tìm hiểu cách API, database và hạ tầng phối hợp để tạo nên một sản phẩm hoàn chỉnh.",
+      "Mình thích giải quyết những vấn đề thực tế, tìm hiểu vì sao một giải pháp hoạt động và cải thiện sản phẩm từng chút một. Với mình, mỗi dự án cũng là một cơ hội để học thêm điều mới."
+    ],
+    "quote": "Học qua việc làm. Ghi lại để hiểu sâu hơn.",
+    "role": "Fullstack Developer",
+    "portraitAlt": "Ảnh chân dung Pham Duc Tai",
+    "profileCaption": "Xây dựng · Học hỏi · Chia sẻ",
+    "projectCta": "Khám phá dự án",
+    "contactCta": "Cùng kết nối",
+    "principlesLabel": "02 / Cách mình làm việc",
+    "principlesTitle": "Chỉn chu trong từng bước nhỏ.",
+    "principlesDescription": "Những điều mình hướng đến khi viết code và xây dựng sản phẩm.",
+    "principles": [
+      {
+        "title": "Hiểu vấn đề trước",
+        "description": "Bắt đầu từ nhu cầu thực tế và trải nghiệm người dùng, rồi mới lựa chọn công nghệ phù hợp."
+      },
+      {
+        "title": "Làm rõ ràng, dễ bảo trì",
+        "description": "Ưu tiên cách tổ chức dễ đọc, các thành phần có trách nhiệm rõ ràng và giải pháp vừa đủ cho bài toán."
+      },
+      {
+        "title": "Học và chia sẻ lại",
+        "description": "Ghi chép những gì đã thử, những lỗi đã gặp và cách giải quyết để hiểu sâu hơn và cùng tiến bộ."
+      }
+    ],
+    "learningLabel": "03 / Không ngừng học hỏi",
+    "learningTitle": "Xây dựng để học.\nViết để hiểu.",
+    "learningDescription": "Mình quan tâm tới cả hành trình của một sản phẩm: từ giao diện người dùng đến backend, database và cách đưa ứng dụng vào vận hành.",
+    "learningTopics": [
+      "React & Next.js",
+      "Node.js & API",
+      "Docker & triển khai",
+      "AWS & Cloud",
+      "System Design"
+    ],
+    "writingTitle": "Những bài học không dừng ở code.",
+    "writingDescription": "Blog là nơi mình ghi lại trải nghiệm làm Developer, cách xử lý những vấn đề đã gặp và các ghi chú kỹ thuật trong quá trình tìm hiểu.",
+    "writingCta": "Ghé thăm blog",
+    "closingTitle": "Bạn đã biết thêm một chút về mình.",
+    "closingDescription": "Cùng xem những gì mình đang xây dựng, hoặc bắt đầu một cuộc trò chuyện về công nghệ và sản phẩm."
   }
 }

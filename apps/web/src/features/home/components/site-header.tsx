@@ -4,23 +4,29 @@ import { useEffect, useRef, useState } from "react";
 import { profile, type Locale } from "../data";
 import type { NavItem } from "../types";
 import { ThemeToggle } from "./theme-toggle";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { getSiteNavigation } from "@/lib/navigation";
 
 type Props = { locale: Locale; navItems: NavItem[]; onLocaleChange: (locale: Locale) => void };
 
 export function SiteHeader({ locale, navItems, onLocaleChange }: Props) {
+  const pathname = usePathname();
+  const links = getSiteNavigation(navItems, pathname);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("#home");
   const menuButton = useRef<HTMLButtonElement>(null);
   const header = useRef<HTMLElement>(null);
 
   useEffect(() => {
+    if (pathname !== "/") return;
     const observer = new IntersectionObserver((entries) => {
       const visible = entries.filter((entry) => entry.isIntersecting);
       if (visible.length) setActive("#" + visible[0].target.id);
     }, { rootMargin: "-15% 0px -55% 0px", threshold: 0 });
     document.querySelectorAll("main section[id]").forEach((section) => observer.observe(section));
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     if (!open) return;
@@ -41,14 +47,14 @@ export function SiteHeader({ locale, navItems, onLocaleChange }: Props) {
   return (
     <header className="site-header" ref={header}>
       <div className="site-container header-inner">
-        <a className="brand" href="#home" onClick={() => { setOpen(false); setActive("#home"); }} aria-label={profile.name}>
+        <Link className="brand" href="/#home" onClick={() => { setOpen(false); setActive("#home"); }} aria-label={profile.name}>
           <span className="brand-mark">t<span>.</span></span>
           <span className="brand-name">{profile.name}<span>portfolio & blog</span></span>
-        </a>
+        </Link>
         <nav id="primary-navigation" className={`primary-nav ${open ? "is-open" : ""}`} aria-label={locale === "vi" ? "Điều hướng chính" : "Main navigation"}>
-          {navItems.map((item) => (
-            <a href={item.href} key={item.href} aria-current={active === item.href ? "location" : undefined}
-              onClick={() => setOpen(false)}>{item.label}</a>
+          {links.map((item) => (
+            <Link href={item.href} key={item.href} aria-current={item.href === pathname ? "page" : pathname === "/" && active === item.href ? "location" : undefined}
+              onClick={() => setOpen(false)}>{item.label}</Link>
           ))}
         </nav>
         <div className="header-actions">

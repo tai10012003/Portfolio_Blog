@@ -1,0 +1,72 @@
+.about-read-more { margin-top: 20px; }
+.about-page-main { padding-block: 28px 48px; }
+.about-breadcrumb { display: flex; gap: 12px; align-items: center; font-size: 13px; color: var(--muted); }
+.about-breadcrumb a:hover { color: var(--accent); }
+.about-breadcrumb [aria-current] { color: var(--foreground); }
+.about-page-intro { max-width: 730px; padding-block: 38px 36px; }
+.about-page-intro h1 { font-size: clamp(30px, 3.5vw, 42px); font-weight: 650; line-height: 1.35; letter-spacing: -1.3px; white-space: pre-line; background: linear-gradient(115deg, var(--hero-title-start), var(--accent)); background-clip: text; color: transparent; }
+.about-page-intro > p:last-child { max-width: 630px; margin-top: 18px; font-size: 16px; color: var(--muted); line-height: 1.9; }
+.about-page-main h2 { font-size: 27px; line-height: 1.45; letter-spacing: -.7px; font-weight: 600; }
+.about-story-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .85fr); gap: 26px; align-items: start; }
+.about-story-card, .about-profile-card, .about-principle-card { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; box-shadow: 0 8px 28px color-mix(in srgb, var(--shadow-color) 4%, transparent); }
+.about-story-card { padding: 36px; }
+.about-story-card h2 { max-width: 480px; }
+.about-story-copy { display: grid; gap: 17px; margin-top: 23px; font-size: 15px; line-height: 1.95; color: var(--muted); }
+.about-story-card blockquote { position: relative; overflow: hidden; margin: 26px 0; padding: 24px; background: linear-gradient(125deg, var(--feature-start), var(--feature-end)); border-radius: 16px; border-left: 3px solid var(--accent); }
+.about-story-card blockquote > span { position: absolute; right: 16px; top: -12px; font-size: 95px; line-height: 1.5; font-family: Georgia, serif; color: var(--decoration-code); pointer-events: none; }
+.about-story-card blockquote p { position: relative; font-size: 18px; font-weight: 500; line-height: 1.7; }
+.about-story-card cite { display: block; margin-top: 10px; font-size: 13px; font-style: normal; color: var(--muted); }
+.about-profile-card { padding: 12px; position: relative; }
+.about-profile-photo { aspect-ratio: 1 / 1.05; overflow: hidden; border-radius: 16px; background: var(--portrait-background); }
+.about-profile-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 65%; }
+.about-profile-details { padding: 23px 16px 16px; }
+.about-profile-details .eyebrow { margin-bottom: 8px; }
+.about-profile-details h2 { font-size: 24px; }
+.about-profile-details > p:last-child { font-size: 13px; color: var(--muted); margin-top: 9px; }
+.about-principles, .about-learning-grid, .about-closing { margin-top: 46px; }
+.about-principle-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.about-principle-card { position: relative; padding: 28px; border-radius: 20px; transition: border-color .25s, transform .25s, box-shadow .25s; }
+.about-principle-card:hover { border-color: var(--border-hover); transform: translateY(-5px); box-shadow: 0 18px 35px color-mix(in srgb, var(--shadow-color) 8%, transparent); }
+.about-principle-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+.about-principle-icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: var(--accent-soft); color: var(--accent); }
+.about-principle-card:nth-child(2) .about-principle-icon { background: var(--violet-soft); color: var(--violet-text); }
+.about-principle-card:nth-child(3) .about-principle-icon { background: var(--blue-soft); color: var(--blue-text); }
+.about-principle-number { font: 13px/1.5 monospace; color: var(--text-subtle); }
+.about-principle-card h3 { font-size: 18px; font-weight: 600; line-height: 1.5; }
+.about-principle-card > p { margin-top: 13px; font-size: 14px; line-height: 1.9; color: var(--muted); }
+.about-learning-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; padding: 36px; border: 1px solid var(--line); border-radius: 24px; background: linear-gradient(130deg, var(--experience-start), var(--experience-end)); }
+.about-learning-copy h2 { white-space: pre-line; }
+.about-learning-copy > p:not(.eyebrow) { font-size: 15px; line-height: 1.9; color: var(--muted); margin-top: 17px; }
+.about-topic-list { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 23px; }
+.about-topic-list span { padding: 6px 11px; font-size: 13px; background: var(--surface-glass); color: var(--foreground); border: 1px solid var(--line); border-radius: 8px; }
+.about-writing-card { position: relative; overflow: hidden; padding: 28px; border: 1px solid var(--line); background: var(--surface); border-radius: 18px; align-self: center; }
+.about-writing-mark { display: inline-flex; color: var(--accent); background: var(--accent-soft); padding: 7px 11px; font: 20px/1.5 monospace; border-radius: 10px; margin-bottom: 20px; }
+.about-writing-card h3 { font-size: 20px; line-height: 1.5; font-weight: 550; }
+.about-writing-card > p { margin-block: 14px 22px; font-size: 14px; line-height: 1.9; color: var(--muted); }
+.about-closing { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding-top: 32px; border-top: 1px solid var(--line); }
+.about-closing h2 { font-size: 23px; }
+.about-closing p { max-width: 650px; margin-top: 10px; font-size: 14px; line-height: 1.9; color: var(--muted); }
+.about-closing .button { flex-shrink: 0; }
+@media (max-width: 1000px) {
+  .about-story-grid { grid-template-columns: 1.3fr 1fr; gap: 20px; }
+  .about-story-card { padding: 28px; }
+  .about-principle-card { padding: 23px; }
+  .about-learning-grid { gap: 24px; padding: 28px; }
+}
+@media (max-width: 700px) {
+  .about-page-main { padding-block: 23px 34px; }
+  .about-page-intro { padding-block: 30px; }
+  .about-page-intro h1 { font-size: 32px; letter-spacing: -.8px; }
+  .about-page-intro > p:last-child { font-size: 15px; }
+  .about-page-main h2 { font-size: 24px; }
+  .about-story-grid { grid-template-columns: 1fr; }
+  .about-profile-card { grid-row: 1; max-width: 380px; width: 100%; justify-self: center; }
+  .about-profile-photo { aspect-ratio: 1.2; }
+  .about-story-card { padding: 25px; }
+  .about-principles, .about-learning-grid, .about-closing { margin-top: 34px; }
+  .about-principle-grid { grid-template-columns: 1fr; gap: 16px; }
+  .about-principle-top { margin-bottom: 17px; }
+  .about-learning-grid { grid-template-columns: 1fr; padding: 25px; }
+  .about-writing-card { padding: 23px; }
+  .about-closing { flex-direction: column; align-items: flex-start; gap: 23px; padding-top: 27px; }
+}
