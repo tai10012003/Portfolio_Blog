@@ -3,7 +3,7 @@
     "navItems": [
       {
         "label": "Home",
-        "href": "#home"
+        "href": "/home"
       },
       {
         "label": "About",
@@ -11,7 +11,7 @@
       },
       {
         "label": "Skills",
-        "href": "#skills"
+        "href": "/skills"
       },
       {
         "label": "Experience",
@@ -68,6 +68,10 @@
       {
         "name": "AWS",
         "group": "Cloud"
+      },
+      {
+        "name": "Coding Agent",
+        "group": "AI-assisted development"
       }
     ],
     "experiences": [
@@ -152,7 +156,16 @@
     "skillsIntro": {
       "eyebrow": "Skills",
       "title": "My everyday toolkit",
-      "description": "Technologies I use and explore while building web products."
+      "description": "Technology, coding agents, and collaboration skills help me build products, review code, and communicate technical solutions clearly.",
+      "actionLabel": "Explore my toolkit",
+      "softSkillsLabel": "Soft skills",
+      "softSkills": [
+        "Communication",
+        "Teamwork",
+        "Technical presentation",
+        "Problem-solving",
+        "Critical thinking"
+      ]
     },
     "experienceIntro": {
       "eyebrow": "Experience",
@@ -236,5 +249,207 @@
     "writingCta": "Visit the blog",
     "closingTitle": "Now you know a little more about me.",
     "closingDescription": "Take a look at what I'm building, or start a conversation about technology and products."
+  },
+  "skillsPage": {
+    "breadcrumb": "Skills",
+    "title": "A toolkit for turning\nideas into products.",
+    "mapLabel": "A fullstack perspective",
+    "mapDescription": "Connected layers, one cohesive experience.",
+    "mapSteps": [
+      {
+        "title": "Interface",
+        "stack": "React · Next.js · TypeScript"
+      },
+      {
+        "title": "APIs & logic",
+        "stack": "Node.js"
+      },
+      {
+        "title": "Deployment",
+        "stack": "Docker · AWS"
+      }
+    ],
+    "catalogLabel": "01 / My toolkit",
+    "catalogTitle": "Every tool has a purpose.",
+    "filterLabel": "Filter technologies by group",
+    "allLabel": "All",
+    "groupLabel": "skill groups",
+    "readMoreLabel": "Explore my toolkit",
+    "categories": [
+      {
+        "id": "frontend",
+        "label": "Frontend"
+      },
+      {
+        "id": "backend",
+        "label": "Backend"
+      },
+      {
+        "id": "devops",
+        "label": "DevOps"
+      },
+      {
+        "id": "cloud",
+        "label": "Cloud"
+      },
+      {
+        "id": "ai",
+        "label": "AI Tooling"
+      }
+    ],
+    "technologies": [
+      {
+        "id": "react",
+        "name": "React",
+        "mark": "⚛",
+        "category": "frontend",
+        "description": "Building component-based interfaces, managing state, and connecting interactions into a cohesive experience.",
+        "topics": [
+          "Components",
+          "Hooks",
+          "State"
+        ]
+      },
+      {
+        "id": "nextjs",
+        "name": "Next.js",
+        "mark": "N",
+        "category": "frontend",
+        "description": "Organizing web applications with routing and server/client rendering, with attention to performance and discoverability.",
+        "topics": [
+          "App Router",
+          "Rendering",
+          "SEO"
+        ]
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "mark": "TS",
+        "category": "frontend",
+        "description": "Making data structures and contracts between components explicit, so code is easier to read and evolve.",
+        "topics": [
+          "Types",
+          "Interfaces",
+          "Generics"
+        ]
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "mark": "JS",
+        "category": "backend",
+        "description": "Building APIs and server-side flows, connecting data, and handling errors in a structured way.",
+        "topics": [
+          "REST API",
+          "Async / Await",
+          "Validation"
+        ]
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "mark": "D",
+        "category": "devops",
+        "description": "Packaging applications and preparing consistent development environments with containers and Docker Compose.",
+        "topics": [
+          "Containers",
+          "Dockerfile",
+          "Compose"
+        ]
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "mark": "aws",
+        "category": "cloud",
+        "description": "Exploring cloud infrastructure and deployment, from choosing services to configuring environments.",
+        "topics": [
+          "Cloud",
+          "Deployment",
+          "Infrastructure"
+        ]
+      },
+      {
+        "id": "codingagent",
+        "name": "Coding Agent",
+        "mark": "AI",
+        "category": "ai",
+        "description": "Using coding agents to improve development productivity, support code review, and assess code quality. I provide context, challenge suggestions, and verify the results before applying them.",
+        "topics": [
+          "Productivity",
+          "Code review",
+          "Code quality"
+        ]
+      }
+    ],
+    "practiceTitle": "Connecting the pieces.",
+    "practiceDescription": "The value comes from how the tools work together to solve a practical problem.",
+    "practiceSteps": [
+      {
+        "title": "Build the experience",
+        "description": "Break the interface into clear components, handle data, and respond to user interactions.",
+        "stack": "React / Next.js / TypeScript"
+      },
+      {
+        "title": "Connect the data flow",
+        "description": "Design APIs, validate inputs, and organize communication between the interface and server.",
+        "stack": "Node.js / REST API"
+      },
+      {
+        "title": "Prepare for deployment",
+        "description": "Package the application, separate environment configuration, and prepare the deployment flow.",
+        "stack": "Docker / Cloud"
+      }
+    ],
+    "learningTitle": "There is always room to grow.",
+    "learningDescription": "I'm continuing to explore system design, deployment automation, and data organization for products that can evolve over time.",
+    "learningTopics": [
+      "System Design",
+      "CI/CD",
+      "PostgreSQL & Neon"
+    ],
+    "learningNote": "Learn from real problems, write down what makes sense, and experiment in the next project.",
+    "closingTitle": "See these tools in practice.",
+    "closingDescription": "Visit my projects to see how I bring technologies together when building products.",
+    "projectCta": "Explore projects",
+    "blogCta": "Read technical notes",
+    "intro": "I combine technology, coding agents, and collaboration skills to build products effectively: from interfaces and APIs to reviewing code and discussing solutions with a team.",
+    "eyebrow": "TECHNICAL & PEOPLE SKILLS",
+    "resultLabel": "technologies & tools",
+    "softCountLabel": "soft skills",
+    "catalogDescription": "Technologies and tools I use to build products, improve productivity, and assess code quality.",
+    "softLabel": "02 / Soft skills",
+    "softTitle": "Working well together. Thinking clearly.",
+    "softDescription": "Alongside technology, I focus on communication, collaboration, and thoughtful discussions that turn solutions into practice.",
+    "softSkills": [
+      {
+        "id": "communication",
+        "title": "Communication",
+        "description": "Communicating clearly, listening, and clarifying requirements so everyone shares an understanding of the problem and the next steps."
+      },
+      {
+        "id": "teamwork",
+        "title": "Teamwork",
+        "description": "Collaborating effectively, sharing information, and contributing to a common goal throughout product development."
+      },
+      {
+        "id": "presentation",
+        "title": "Presenting technical solutions",
+        "description": "Explaining an approach, the reasoning behind it, and its trade-offs so the solution can be discussed and evaluated."
+      },
+      {
+        "id": "problem-solving",
+        "title": "Problem-solving",
+        "description": "Analyzing causes, breaking down a problem, and choosing a suitable solution rather than only addressing the symptoms."
+      },
+      {
+        "id": "critical-thinking",
+        "title": "Critical thinking",
+        "description": "Asking questions, testing assumptions, and evaluating solutions through reasoning, evidence, and practical context."
+      }
+    ],
+    "practiceLabel": "03 / From skills to products",
+    "learningLabel": "04 / Still exploring"
   }
 }

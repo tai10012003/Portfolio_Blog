@@ -88,7 +88,7 @@ export type HomeDictionary = {
   posts: BlogPostPreview[];
   hero: HeroContent;
   about: AboutContent;
-  skillsIntro: SectionIntro;
+  skillsIntro: SectionIntro & { actionLabel: string; softSkillsLabel: string; softSkills: string[] };
   experienceIntro: SectionIntro;
   projectsIntro: SectionIntro & {
     actionLabel: string;

@@ -11,7 +11,7 @@
       },
       {
         "label": "Kỹ năng",
-        "href": "#skills"
+        "href": "/skills"
       },
       {
         "label": "Kinh nghiệm",
@@ -68,6 +68,10 @@
       {
         "name": "AWS",
         "group": "Cloud"
+      },
+      {
+        "name": "Coding Agent",
+        "group": "AI hỗ trợ lập trình"
       }
     ],
     "experiences": [
@@ -152,7 +156,16 @@
     "skillsIntro": {
       "eyebrow": "Kỹ năng",
       "title": "Bộ công cụ quen thuộc",
-      "description": "Những công nghệ mình sử dụng và tìm hiểu trong quá trình xây dựng sản phẩm web."
+      "description": "Công nghệ, Coding Agent và kỹ năng phối hợp giúp mình xây dựng sản phẩm, review code và trao đổi giải pháp rõ ràng hơn.",
+      "actionLabel": "Khám phá bộ kỹ năng",
+      "softSkillsLabel": "Kỹ năng mềm",
+      "softSkills": [
+        "Giao tiếp",
+        "Làm việc nhóm",
+        "Trình bày giải pháp",
+        "Giải quyết vấn đề",
+        "Phản biện"
+      ]
     },
     "experienceIntro": {
       "eyebrow": "Kinh nghiệm",
@@ -236,5 +249,207 @@
     "writingCta": "Ghé thăm blog",
     "closingTitle": "Bạn đã biết thêm một chút về mình.",
     "closingDescription": "Cùng xem những gì mình đang xây dựng, hoặc bắt đầu một cuộc trò chuyện về công nghệ và sản phẩm."
+  },
+  "skillsPage": {
+    "breadcrumb": "Kỹ năng",
+    "title": "Bộ công cụ để biến\ný tưởng thành sản phẩm.",
+    "mapLabel": "Một góc nhìn fullstack",
+    "mapDescription": "Các lớp kết nối, cùng tạo nên một trải nghiệm.",
+    "mapSteps": [
+      {
+        "title": "Giao diện",
+        "stack": "React · Next.js · TypeScript"
+      },
+      {
+        "title": "API & xử lý",
+        "stack": "Node.js"
+      },
+      {
+        "title": "Triển khai",
+        "stack": "Docker · AWS"
+      }
+    ],
+    "catalogLabel": "01 / Bộ kỹ năng",
+    "catalogTitle": "Mỗi công cụ, một vai trò.",
+    "filterLabel": "Lọc công nghệ theo nhóm",
+    "allLabel": "Tất cả",
+    "groupLabel": "nhóm kỹ năng",
+    "readMoreLabel": "Khám phá bộ kỹ năng",
+    "categories": [
+      {
+        "id": "frontend",
+        "label": "Frontend"
+      },
+      {
+        "id": "backend",
+        "label": "Backend"
+      },
+      {
+        "id": "devops",
+        "label": "DevOps"
+      },
+      {
+        "id": "cloud",
+        "label": "Cloud"
+      },
+      {
+        "id": "ai",
+        "label": "AI Tooling"
+      }
+    ],
+    "technologies": [
+      {
+        "id": "react",
+        "name": "React",
+        "mark": "⚛",
+        "category": "frontend",
+        "description": "Xây dựng giao diện theo component, quản lý state và kết nối các tương tác thành trải nghiệm liền mạch.",
+        "topics": [
+          "Components",
+          "Hooks",
+          "State"
+        ]
+      },
+      {
+        "id": "nextjs",
+        "name": "Next.js",
+        "mark": "N",
+        "category": "frontend",
+        "description": "Tổ chức ứng dụng web với routing, kết hợp server và client, chú trọng hiệu năng và khả năng tìm kiếm.",
+        "topics": [
+          "App Router",
+          "Rendering",
+          "SEO"
+        ]
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "mark": "TS",
+        "category": "frontend",
+        "description": "Làm rõ cấu trúc dữ liệu và hợp đồng giữa các phần của ứng dụng, giúp code dễ đọc và dễ thay đổi hơn.",
+        "topics": [
+          "Types",
+          "Interfaces",
+          "Generics"
+        ]
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "mark": "JS",
+        "category": "backend",
+        "description": "Xây dựng API và luồng xử lý phía server, kết nối dữ liệu và xử lý lỗi có cấu trúc.",
+        "topics": [
+          "REST API",
+          "Async / Await",
+          "Validation"
+        ]
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "mark": "D",
+        "category": "devops",
+        "description": "Đóng gói ứng dụng và chuẩn bị môi trường phát triển nhất quán bằng container và Docker Compose.",
+        "topics": [
+          "Containers",
+          "Dockerfile",
+          "Compose"
+        ]
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "mark": "aws",
+        "category": "cloud",
+        "description": "Tìm hiểu hạ tầng cloud và cách đưa ứng dụng vào vận hành, từ lựa chọn dịch vụ đến cấu hình môi trường.",
+        "topics": [
+          "Cloud",
+          "Deployment",
+          "Infrastructure"
+        ]
+      },
+      {
+        "id": "codingagent",
+        "name": "Coding Agent",
+        "mark": "AI",
+        "category": "ai",
+        "description": "Sử dụng Coding Agent để tăng hiệu suất phát triển, hỗ trợ review và đánh giá chất lượng code. Chủ động cung cấp ngữ cảnh, phản biện đề xuất và kiểm chứng kết quả trước khi áp dụng.",
+        "topics": [
+          "Tăng hiệu suất",
+          "Code review",
+          "Chất lượng code"
+        ]
+      }
+    ],
+    "practiceTitle": "Kết nối các mảnh ghép.",
+    "practiceDescription": "Giá trị nằm ở cách các công cụ phối hợp để giải quyết một bài toán thực tế.",
+    "practiceSteps": [
+      {
+        "title": "Xây dựng trải nghiệm",
+        "description": "Chia giao diện thành các thành phần rõ ràng, xử lý dữ liệu và phản hồi thao tác của người dùng.",
+        "stack": "React / Next.js / TypeScript"
+      },
+      {
+        "title": "Kết nối luồng dữ liệu",
+        "description": "Thiết kế API, kiểm tra đầu vào và tổ chức cách giao diện giao tiếp với phía server.",
+        "stack": "Node.js / REST API"
+      },
+      {
+        "title": "Chuẩn bị vận hành",
+        "description": "Đóng gói ứng dụng, tách cấu hình môi trường và chuẩn bị quy trình triển khai.",
+        "stack": "Docker / Cloud"
+      }
+    ],
+    "learningTitle": "Bộ kỹ năng luôn có chỗ để phát triển.",
+    "learningDescription": "Mình tiếp tục tìm hiểu cách thiết kế hệ thống, tự động hóa triển khai và tổ chức dữ liệu cho những sản phẩm có thể phát triển lâu dài.",
+    "learningTopics": [
+      "System Design",
+      "CI/CD",
+      "PostgreSQL & Neon"
+    ],
+    "learningNote": "Học từ bài toán thực tế, ghi lại điều đã hiểu và thử nghiệm ở dự án tiếp theo.",
+    "closingTitle": "Xem những công cụ này trong thực tế.",
+    "closingDescription": "Ghé qua các dự án để xem cách mình kết hợp công nghệ khi xây dựng sản phẩm.",
+    "projectCta": "Khám phá dự án",
+    "blogCta": "Đọc ghi chép kỹ thuật",
+    "intro": "Mình kết hợp công nghệ, Coding Agent và kỹ năng phối hợp để xây dựng sản phẩm hiệu quả: từ giao diện, API đến review code và trao đổi giải pháp cùng đội nhóm.",
+    "eyebrow": "KỸ NĂNG KỸ THUẬT & KỸ NĂNG MỀM",
+    "resultLabel": "công nghệ & công cụ",
+    "softCountLabel": "kỹ năng mềm",
+    "catalogDescription": "Công nghệ và công cụ hỗ trợ mình xây dựng sản phẩm, tăng hiệu suất và đánh giá chất lượng code.",
+    "softLabel": "02 / Kỹ năng mềm",
+    "softTitle": "Làm tốt cùng nhau, giải quyết vấn đề rõ ràng.",
+    "softDescription": "Bên cạnh công nghệ, mình chú trọng cách giao tiếp, phối hợp và trao đổi để đưa giải pháp đến thực tế.",
+    "softSkills": [
+      {
+        "id": "communication",
+        "title": "Giao tiếp",
+        "description": "Trao đổi rõ ràng, lắng nghe và làm rõ yêu cầu để mọi người cùng hiểu vấn đề và thống nhất hướng xử lý."
+      },
+      {
+        "id": "teamwork",
+        "title": "Làm việc nhóm",
+        "description": "Phối hợp tốt với đồng đội, chia sẻ thông tin và đóng góp vào mục tiêu chung trong quá trình phát triển sản phẩm."
+      },
+      {
+        "id": "presentation",
+        "title": "Trình bày giải pháp kỹ thuật",
+        "description": "Diễn giải cách tiếp cận, lý do lựa chọn và các đánh đổi để giải pháp kỹ thuật dễ được thảo luận và đánh giá."
+      },
+      {
+        "id": "problem-solving",
+        "title": "Tư duy giải quyết vấn đề",
+        "description": "Phân tích nguyên nhân, chia nhỏ bài toán và tìm cách xử lý phù hợp thay vì chỉ giải quyết biểu hiện bên ngoài."
+      },
+      {
+        "id": "critical-thinking",
+        "title": "Khả năng phản biện",
+        "description": "Đặt câu hỏi, kiểm tra giả định và đánh giá giải pháp dựa trên lập luận, bằng chứng và bối cảnh thực tế."
+      }
+    ],
+    "practiceLabel": "03 / Từ kỹ năng đến sản phẩm",
+    "learningLabel": "04 / Tiếp tục khám phá"
   }
 }
