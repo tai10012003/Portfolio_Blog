@@ -19,7 +19,7 @@
       },
       {
         "label": "Projects",
-        "href": "#projects"
+        "href": "/projects"
       },
       {
         "label": "Blog",
@@ -88,31 +88,44 @@
     ],
     "projects": [
       {
-        "title": "Portfolio Blog CMS",
-        "summary": "A personal portfolio and technical blog powered by a headless CMS.",
-        "stack": [
-          "Next.js",
-          "Strapi",
-          "PostgreSQL"
-        ]
-      },
-      {
-        "title": "Developer Task Hub",
-        "summary": "A dashboard for managing tasks, dev notes, and learning progress.",
+        "id": "easytalk",
+        "title": "EasyTalk",
+        "summary": "Bringing learning journeys, exercises, revision, and AI assistance into a structured English learning experience.",
         "stack": [
           "React",
           "Node.js",
-          "Docker"
-        ]
+          "MongoDB",
+          "Redis",
+          "AWS Bedrock"
+        ],
+        "categoryLabel": "Personal project",
+        "href": "/projects#easytalk"
       },
       {
-        "title": "System Design Notes",
-        "summary": "A knowledge base for architecture, caching, queues, and scaling notes.",
+        "id": "sportelite",
+        "title": "SportElite",
+        "summary": "A shopping experience covering product discovery, color and size selection, ordering, order tracking, and product reviews.",
         "stack": [
-          "TypeScript",
-          "Markdown",
-          "AWS"
-        ]
+          "Vue 3",
+          "Pinia",
+          "ASP.NET Core",
+          "SQL Server"
+        ],
+        "categoryLabel": "Personal project",
+        "href": "/projects#sportelite"
+      },
+      {
+        "id": "cobenfy",
+        "title": "Cobenfy",
+        "summary": "Contributing to development and maintenance at XSUNT for Bristol Myers Squibb, focusing on charts, data tables, and reports.",
+        "stack": [
+          "Vue 2/3",
+          "ASP.NET Core",
+          "SQL Server",
+          "Highcharts"
+        ],
+        "categoryLabel": "Company project",
+        "href": "/projects#cobenfy"
       }
     ],
     "posts": [
@@ -175,7 +188,7 @@
     },
     "projectsIntro": {
       "eyebrow": "Projects",
-      "actionLabel": "Discuss a project",
+      "actionLabel": "Explore all projects",
       "title": "Things I've been building"
     },
     "blogIntro": {
@@ -557,6 +570,169 @@
         "role": "Cloud Developer Intern · AWS Vietnam",
         "period": "09/2024 — 12/2024",
         "description": "Joined the First Cloud Journey Program, explored AWS services, and built a serverless product management website with CRUD functionality."
+      }
+    ]
+  },
+  "projectsPage": {
+    "breadcrumb": "Projects",
+    "eyebrow": "PRODUCTS & CONTRIBUTIONS",
+    "title": "From ideas to products.\nFrom work to experience.",
+    "intro": "Personal projects I've built and company projects I've contributed to. Each explores a different challenge, from AI-assisted English learning to e-commerce and pharmaceutical data.",
+    "filterLabel": "Filter projects",
+    "allLabel": "All",
+    "personalLabel": "Personal",
+    "companyLabel": "Company",
+    "resultLabel": "projects",
+    "previewLabel": "Interface illustration",
+    "detailLabel": "Explore details",
+    "architectureLabel": "Technical organization & workflow",
+    "stackLabel": "Technology stack",
+    "sourceLabel": "Source code",
+    "closingTitle": "Have an idea you'd like to build together?",
+    "closingDescription": "I'd love to talk about products, technology, and opportunities to collaborate.",
+    "contactCta": "Let's talk",
+    "projects": [
+      {
+        "id": "easytalk",
+        "category": "personal",
+        "categoryLabel": "Personal project",
+        "title": "EasyTalk",
+        "subtitle": "AI-powered English learning platform",
+        "summary": "Bringing learning journeys, exercises, revision, and AI assistance into a structured English learning experience.",
+        "stack": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Redis",
+          "AWS Bedrock"
+        ],
+        "highlights": [
+          "Learning paths & progress",
+          "Conversation, writing & chatbot AI",
+          "Separate admin portal"
+        ],
+        "detailTitle": "Features & scope",
+        "features": [
+          "Journey, Gate, and Stage learning paths with grammar, vocabulary, pronunciation, dictation, and reading activities.",
+          "Flashcards, reminders, streaks, badges, and leaderboards.",
+          "AI flows for conversation, writing feedback, and study guidance; a chatbot with AWS Bedrock Knowledge Bases retrieval.",
+          "An admin portal for learning content, users, and analytics dashboards."
+        ],
+        "architecture": [
+          "Separate learner web, admin portal, business API, and AI service.",
+          "React/Vite frontends; Node.js/Express backend with MongoDB, Redis, and Socket.IO.",
+          "Docker Compose configuration and GitHub Actions workflows for AWS deployment."
+        ],
+        "fullStack": [
+          "React",
+          "Vite",
+          "Redux Toolkit",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Redis",
+          "Socket.IO",
+          "OpenAI",
+          "AWS Bedrock",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "sourceHref": "https://github.com/tai10012003/EasyTalk_LearningEnglish",
+        "contextHref": "/skills",
+        "contextLabel": "Related skills"
+      },
+      {
+        "id": "sportelite",
+        "category": "personal",
+        "categoryLabel": "Personal project",
+        "title": "SportElite",
+        "subtitle": "Sports e-commerce website",
+        "summary": "A shopping experience covering product discovery, color and size selection, ordering, order tracking, and product reviews.",
+        "stack": [
+          "Vue 3",
+          "Pinia",
+          "ASP.NET Core",
+          "SQL Server"
+        ],
+        "highlights": [
+          "Search, filters & variants",
+          "Cart & order management",
+          "Wishlist & product reviews"
+        ],
+        "detailTitle": "Features & scope",
+        "features": [
+          "Product search, suggestions, filters, pagination, featured products, and related products.",
+          "Color, size, and quantity selection with a cart persisted in localStorage.",
+          "Shipping information, delivery fee calculation, order creation, status history, and conditional cancellation.",
+          "JWT registration and login, user profiles, wishlists, and product reviews."
+        ],
+        "architecture": [
+          "Vue 3 frontend with Pinia and Vue Router, communicating with the backend through Axios.",
+          "ASP.NET Core 8 backend organized into Controller, Service, and Repository layers, with Entity Framework Core and SQL Server.",
+          "JWT and BCrypt for authentication, and Cloudinary for image management."
+        ],
+        "fullStack": [
+          "Vue 3",
+          "Vite",
+          "Pinia",
+          "Vue Router",
+          "Bootstrap",
+          "Axios",
+          "ASP.NET Core 8",
+          "Entity Framework Core",
+          "SQL Server",
+          "JWT",
+          "Cloudinary"
+        ],
+        "sourceHref": "https://github.com/tai10012003/Sports-Shop-Project",
+        "contextHref": "/skills",
+        "contextLabel": "Related skills"
+      },
+      {
+        "id": "cobenfy",
+        "category": "company",
+        "categoryLabel": "Company project",
+        "title": "Cobenfy",
+        "subtitle": "Pharmaceutical data management system",
+        "summary": "Contributing to development and maintenance at XSUNT for Bristol Myers Squibb, focusing on charts, data tables, and reports.",
+        "stack": [
+          "Vue 2/3",
+          "ASP.NET Core",
+          "SQL Server",
+          "Highcharts"
+        ],
+        "highlights": [
+          "Sales & execution data",
+          "Charts, tables & reports",
+          "Agile/Scrum collaboration"
+        ],
+        "detailTitle": "My contribution",
+        "features": [
+          "Contributed to the development and maintenance of the pharmaceutical data management system.",
+          "Implemented and customized Highcharts charts and VXETable tables for TRx/NBRx sales and Call, Sample, Program, Email, IVA… execution data.",
+          "Worked across Geo, MHC, and HCP modules.",
+          "Fixed display, sorting, filtering, column handling, and Excel/PowerPoint report export issues."
+        ],
+        "architecture": [
+          "Worked with Vue 2/3, ASP.NET Core, and SQL Server within the project.",
+          "Gained familiarity with Prescription, Account, Geography, Sales, and Execution data.",
+          "Managed tasks in Jira in an Agile/Scrum environment, collaborating with project managers and mentors."
+        ],
+        "fullStack": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vue 2",
+          "Vue 3",
+          "ASP.NET Core",
+          "SQL Server",
+          "Highcharts",
+          "VXETable",
+          "Jira"
+        ],
+        "sourceHref": null,
+        "contextHref": "/experience#xsunt",
+        "contextLabel": "Experience at XSUNT"
       }
     ]
   }

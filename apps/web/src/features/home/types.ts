@@ -20,6 +20,9 @@ export type ExperienceItem = {
 };
 
 export type ProjectItem = {
+  id: string;
+  categoryLabel: string;
+  href: string;
   title: string;
   summary: string;
   stack: string[];

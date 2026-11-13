@@ -3,6 +3,7 @@
 @import "./about.css";
 @import "./skills.css";
 @import "./experience.css";
+@import "./projects.css";
 
 
 * { box-sizing: border-box; }

@@ -19,7 +19,7 @@
       },
       {
         "label": "Dự án",
-        "href": "#projects"
+        "href": "/projects"
       },
       {
         "label": "Blog",
@@ -88,31 +88,44 @@
     ],
     "projects": [
       {
-        "title": "Portfolio Blog CMS",
-        "summary": "Website cá nhân kết hợp portfolio và blog kỹ thuật, quản lý nội dung bằng headless CMS.",
-        "stack": [
-          "Next.js",
-          "Strapi",
-          "PostgreSQL"
-        ]
-      },
-      {
-        "title": "Developer Task Hub",
-        "summary": "Dashboard quản lý task, ghi chú lập trình và tiến độ học tập.",
+        "id": "easytalk",
+        "title": "EasyTalk",
+        "summary": "Kết nối lộ trình học, bài tập, ôn tập và các công cụ AI trong một nền tảng học tiếng Anh có tổ chức.",
         "stack": [
           "React",
           "Node.js",
-          "Docker"
-        ]
+          "MongoDB",
+          "Redis",
+          "AWS Bedrock"
+        ],
+        "categoryLabel": "Dự án cá nhân",
+        "href": "/projects#easytalk"
       },
       {
-        "title": "System Design Notes",
-        "summary": "Không gian lưu trữ kiến thức về kiến trúc, caching, queue và scaling.",
+        "id": "sportelite",
+        "title": "SportElite",
+        "summary": "Xây dựng trải nghiệm mua sắm từ tìm sản phẩm, chọn màu và kích thước đến đặt hàng, quản lý đơn và đánh giá sản phẩm.",
         "stack": [
-          "TypeScript",
-          "Markdown",
-          "AWS"
-        ]
+          "Vue 3",
+          "Pinia",
+          "ASP.NET Core",
+          "SQL Server"
+        ],
+        "categoryLabel": "Dự án cá nhân",
+        "href": "/projects#sportelite"
+      },
+      {
+        "id": "cobenfy",
+        "title": "Cobenfy",
+        "summary": "Tham gia phát triển và bảo trì tại XSUNT cho khách hàng Bristol Myers Squibb, tập trung vào biểu đồ, bảng dữ liệu và báo cáo.",
+        "stack": [
+          "Vue 2/3",
+          "ASP.NET Core",
+          "SQL Server",
+          "Highcharts"
+        ],
+        "categoryLabel": "Dự án công ty",
+        "href": "/projects#cobenfy"
       }
     ],
     "posts": [
@@ -175,7 +188,7 @@
     },
     "projectsIntro": {
       "eyebrow": "Dự án",
-      "actionLabel": "Trao đổi về dự án",
+      "actionLabel": "Khám phá các dự án",
       "title": "Những dự án mình đã làm"
     },
     "blogIntro": {
@@ -557,6 +570,169 @@
         "role": "Cloud Developer Intern · AWS Vietnam",
         "period": "09/2024 — 12/2024",
         "description": "Tham gia First Cloud Journey Program, tìm hiểu dịch vụ AWS và xây dựng website quản lý sản phẩm serverless với chức năng CRUD."
+      }
+    ]
+  },
+  "projectsPage": {
+    "breadcrumb": "Dự án",
+    "eyebrow": "SẢN PHẨM & NHỮNG ĐÓNG GÓP",
+    "title": "Từ ý tưởng đến sản phẩm.\nTừ công việc đến trải nghiệm.",
+    "intro": "Những dự án cá nhân mình xây dựng và dự án công ty mình tham gia. Mỗi dự án là một bài toán khác nhau, từ học tiếng Anh với AI đến thương mại điện tử và dữ liệu dược phẩm.",
+    "filterLabel": "Lọc dự án",
+    "allLabel": "Tất cả",
+    "personalLabel": "Cá nhân",
+    "companyLabel": "Công ty",
+    "resultLabel": "dự án",
+    "previewLabel": "Minh họa giao diện",
+    "detailLabel": "Xem chi tiết",
+    "architectureLabel": "Tổ chức kỹ thuật & cách làm việc",
+    "stackLabel": "Bộ công nghệ",
+    "sourceLabel": "Mã nguồn",
+    "closingTitle": "Có một ý tưởng muốn cùng xây dựng?",
+    "closingDescription": "Mình rất vui được trao đổi về sản phẩm, công nghệ và những cơ hội hợp tác mới.",
+    "contactCta": "Cùng trò chuyện",
+    "projects": [
+      {
+        "id": "easytalk",
+        "category": "personal",
+        "categoryLabel": "Dự án cá nhân",
+        "title": "EasyTalk",
+        "subtitle": "Nền tảng học tiếng Anh tích hợp AI",
+        "summary": "Kết nối lộ trình học, bài tập, ôn tập và các công cụ AI trong một nền tảng học tiếng Anh có tổ chức.",
+        "stack": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Redis",
+          "AWS Bedrock"
+        ],
+        "highlights": [
+          "Lộ trình học & theo dõi tiến độ",
+          "Hội thoại, viết & chatbot AI",
+          "Cổng quản trị riêng"
+        ],
+        "detailTitle": "Tính năng & phạm vi",
+        "features": [
+          "Học theo Journey, Gate và Stage; luyện ngữ pháp, từ vựng, phát âm, nghe chép chính tả và đọc truyện.",
+          "Ôn tập flashcard, nhắc nhở, theo dõi streak, huy hiệu và bảng xếp hạng.",
+          "Các luồng AI hỗ trợ hội thoại, góp ý bài viết và hướng dẫn học tập; chatbot tích hợp truy xuất tri thức với AWS Bedrock Knowledge Bases.",
+          "Cổng quản trị nội dung, người dùng và dashboard thống kê."
+        ],
+        "architecture": [
+          "Tách web người học, cổng quản trị, backend nghiệp vụ và service AI.",
+          "Frontend dùng React/Vite; backend Node.js/Express với MongoDB, Redis và Socket.IO.",
+          "Có cấu hình Docker Compose và workflow GitHub Actions triển khai lên AWS."
+        ],
+        "fullStack": [
+          "React",
+          "Vite",
+          "Redux Toolkit",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Redis",
+          "Socket.IO",
+          "OpenAI",
+          "AWS Bedrock",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "sourceHref": "https://github.com/tai10012003/EasyTalk_LearningEnglish",
+        "contextHref": "/skills",
+        "contextLabel": "Kỹ năng liên quan"
+      },
+      {
+        "id": "sportelite",
+        "category": "personal",
+        "categoryLabel": "Dự án cá nhân",
+        "title": "SportElite",
+        "subtitle": "Website thương mại điện tử đồ thể thao",
+        "summary": "Xây dựng trải nghiệm mua sắm từ tìm sản phẩm, chọn màu và kích thước đến đặt hàng, quản lý đơn và đánh giá sản phẩm.",
+        "stack": [
+          "Vue 3",
+          "Pinia",
+          "ASP.NET Core",
+          "SQL Server"
+        ],
+        "highlights": [
+          "Tìm kiếm, lọc & chọn biến thể",
+          "Giỏ hàng & quản lý đơn hàng",
+          "Wishlist & đánh giá sản phẩm"
+        ],
+        "detailTitle": "Tính năng & phạm vi",
+        "features": [
+          "Danh mục sản phẩm có tìm kiếm, gợi ý, lọc, phân trang, sản phẩm nổi bật và liên quan.",
+          "Chọn màu, size, số lượng; giỏ hàng được lưu bằng localStorage.",
+          "Nhập thông tin giao nhận, tính phí vận chuyển, tạo đơn, xem lịch sử trạng thái và hủy đơn theo điều kiện.",
+          "Đăng ký, đăng nhập JWT, hồ sơ cá nhân, sản phẩm yêu thích và đánh giá sản phẩm."
+        ],
+        "architecture": [
+          "Frontend Vue 3 với Pinia và Vue Router, giao tiếp backend qua Axios.",
+          "Backend ASP.NET Core 8 tổ chức theo Controller–Service–Repository, truy cập SQL Server qua Entity Framework Core.",
+          "Sử dụng JWT, BCrypt cho xác thực và Cloudinary để quản lý hình ảnh."
+        ],
+        "fullStack": [
+          "Vue 3",
+          "Vite",
+          "Pinia",
+          "Vue Router",
+          "Bootstrap",
+          "Axios",
+          "ASP.NET Core 8",
+          "Entity Framework Core",
+          "SQL Server",
+          "JWT",
+          "Cloudinary"
+        ],
+        "sourceHref": "https://github.com/tai10012003/Sports-Shop-Project",
+        "contextHref": "/skills",
+        "contextLabel": "Kỹ năng liên quan"
+      },
+      {
+        "id": "cobenfy",
+        "category": "company",
+        "categoryLabel": "Dự án công ty",
+        "title": "Cobenfy",
+        "subtitle": "Hệ thống quản lý dữ liệu dược phẩm",
+        "summary": "Tham gia phát triển và bảo trì tại XSUNT cho khách hàng Bristol Myers Squibb, tập trung vào biểu đồ, bảng dữ liệu và báo cáo.",
+        "stack": [
+          "Vue 2/3",
+          "ASP.NET Core",
+          "SQL Server",
+          "Highcharts"
+        ],
+        "highlights": [
+          "Dữ liệu bán hàng & hoạt động",
+          "Biểu đồ, bảng & báo cáo",
+          "Phối hợp Agile/Scrum"
+        ],
+        "detailTitle": "Phần mình tham gia",
+        "features": [
+          "Đóng góp vào việc phát triển và bảo trì hệ thống quản lý dữ liệu dược phẩm.",
+          "Triển khai và tùy chỉnh biểu đồ Highcharts, bảng VXETable cho dữ liệu TRx/NBRx và Call, Sample, Program, Email, IVA…",
+          "Làm việc với các module Geo, MHC và HCP.",
+          "Sửa lỗi hiển thị, sắp xếp, lọc, xử lý cột và xuất báo cáo Excel/PowerPoint."
+        ],
+        "architecture": [
+          "Làm việc với Vue 2/3, ASP.NET Core và SQL Server trong hệ thống của dự án.",
+          "Tích lũy hiểu biết về dữ liệu Prescription, Account, Geography, Sales và Execution.",
+          "Quản lý công việc bằng Jira trong môi trường Agile/Scrum; phối hợp với project manager và mentor."
+        ],
+        "fullStack": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vue 2",
+          "Vue 3",
+          "ASP.NET Core",
+          "SQL Server",
+          "Highcharts",
+          "VXETable",
+          "Jira"
+        ],
+        "sourceHref": null,
+        "contextHref": "/experience#xsunt",
+        "contextLabel": "Xem kinh nghiệm tại XSUNT"
       }
     ]
   }
