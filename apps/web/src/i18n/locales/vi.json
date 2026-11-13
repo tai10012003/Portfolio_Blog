@@ -15,7 +15,7 @@
       },
       {
         "label": "Kinh nghiệm",
-        "href": "#experience"
+        "href": "/experience"
       },
       {
         "label": "Dự án",
@@ -76,14 +76,14 @@
     ],
     "experiences": [
       {
-        "role": "Fullstack Developer",
-        "period": "2024 - Hiện tại",
-        "description": "Xây dựng giao diện với React và Next.js, phát triển API Node.js, đồng thời chuẩn bị luồng triển khai bằng Docker."
+        "role": "Web Developer · XSUNT Company",
+        "period": "04/2025 — Hiện tại",
+        "description": "Phát triển và bảo trì hệ thống dữ liệu dược phẩm; làm việc với Vue 2/3, ASP.NET Core, SQL Server, Highcharts và VXETable."
       },
       {
-        "role": "Frontend Developer",
-        "period": "2022 - 2024",
-        "description": "Tập trung vào hệ thống giao diện có khả năng mở rộng, quản lý state, tối ưu hiệu năng và trải nghiệm người dùng."
+        "role": "Cloud Developer Intern · AWS Vietnam",
+        "period": "09/2024 — 12/2024",
+        "description": "Tham gia First Cloud Journey Program, tìm hiểu dịch vụ AWS và xây dựng website quản lý sản phẩm serverless với chức năng CRUD."
       }
     ],
     "projects": [
@@ -170,7 +170,8 @@
     "experienceIntro": {
       "eyebrow": "Kinh nghiệm",
       "title": "Hành trình làm việc",
-      "description": "Những chặng đường giúp mình trưởng thành hơn trong cách viết code và xây dựng sản phẩm."
+      "description": "Từ chương trình thực tập cloud tại AWS Vietnam đến công việc phát triển web tại XSUNT.",
+      "actionLabel": "Xem chi tiết kinh nghiệm"
     },
     "projectsIntro": {
       "eyebrow": "Dự án",
@@ -451,5 +452,112 @@
     ],
     "practiceLabel": "03 / Từ kỹ năng đến sản phẩm",
     "learningLabel": "04 / Tiếp tục khám phá"
+  },
+  "experiencePage": {
+    "breadcrumb": "Kinh nghiệm",
+    "eyebrow": "HÀNH TRÌNH LÀM VIỆC",
+    "title": "Kinh nghiệm thực tế.\nNhững bài học để tiến xa hơn.",
+    "intro": "Từ tìm hiểu các dịch vụ AWS trong chương trình thực tập đến phát triển ứng dụng quản lý dữ liệu dược phẩm, mỗi chặng đường giúp mình hiểu sâu hơn về cách xây dựng và duy trì sản phẩm.",
+    "timelineLabel": "Các chặng đường",
+    "currentLabel": "Hiện tại",
+    "pastLabel": "Thực tập",
+    "tasksLabel": "Công việc chính",
+    "outcomesLabel": "Kiến thức & kinh nghiệm tích lũy",
+    "stackLabel": "Công nghệ sử dụng",
+    "workflowLabel": "Môi trường làm việc",
+    "projectLabel": "Dự án trong kỳ thực tập",
+    "projectLinkLabel": "Xem liên kết dự án",
+    "skillsCta": "Khám phá kỹ năng",
+    "closingTitle": "Cùng trao đổi về một cơ hội mới.",
+    "closingDescription": "Bạn muốn tìm hiểu thêm về kinh nghiệm của mình hoặc trao đổi về một bài toán kỹ thuật? Mình rất vui được kết nối.",
+    "contactCta": "Liên hệ với mình",
+    "jobs": [
+      {
+        "id": "xsunt",
+        "company": "XSUNT Company",
+        "monogram": "X",
+        "role": "Web Developer",
+        "period": "04/2025 — Hiện tại",
+        "current": true,
+        "summary": "Tham gia phát triển và bảo trì hệ thống quản lý dữ liệu dược phẩm trong dự án Cobenfy cho khách hàng Bristol Myers Squibb.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vue 2",
+          "Vue 3",
+          "ASP.NET Core",
+          "SQL Server"
+        ],
+        "tasks": [
+          "Đóng góp vào việc phát triển và bảo trì hệ thống quản lý dữ liệu dược phẩm của dự án.",
+          "Triển khai và tùy chỉnh biểu đồ, bảng dữ liệu với Highcharts và VXETable để hiển thị dữ liệu bán hàng tổng hợp (TRx, NBRx) và hoạt động thực thi (Call, Sample, Program, Email, IVA…) trên các module Geo, MHC, HCP.",
+          "Sửa lỗi liên quan đến biểu đồ và báo cáo: hiển thị, sắp xếp, lọc, xử lý cột và xuất Excel/PowerPoint để các tính năng hoạt động đúng."
+        ],
+        "outcomes": [
+          "Hiểu thêm về cấu trúc dữ liệu trong lĩnh vực dược phẩm: Prescription, Account, Geography, Sales và Execution.",
+          "Cải thiện khả năng phân tích vấn đề và debugging qua các lỗi thực tế của hệ thống.",
+          "Tích lũy kinh nghiệm thực hành với Vue.js 2 và ASP.NET Core API.",
+          "Làm việc trong môi trường Agile/Scrum, quản lý công việc bằng Jira và phối hợp với project manager, mentor."
+        ],
+        "workflow": [
+          "Agile / Scrum",
+          "Jira",
+          "Project manager & mentor"
+        ],
+        "project": null
+      },
+      {
+        "id": "aws-vietnam",
+        "company": "Amazon Web Services Vietnam Company",
+        "monogram": "aws",
+        "role": "Cloud Developer Intern",
+        "period": "09/2024 — 12/2024",
+        "current": false,
+        "summary": "Tham gia First Cloud Journey Program, tìm hiểu kiến thức nền tảng về các dịch vụ AWS và áp dụng vào một dự án trong kỳ thực tập.",
+        "technologies": [
+          "Amazon S3",
+          "AWS Lambda",
+          "Amazon API Gateway",
+          "Amazon DynamoDB"
+        ],
+        "tasks": [
+          "Tìm hiểu kiến thức nền tảng về các dịch vụ AWS.",
+          "Xây dựng dự án trong chương trình thực tập và vận dụng kiến thức đã học vào triển khai thực tế."
+        ],
+        "outcomes": [
+          "Hiểu cách kết hợp S3, Lambda, API Gateway và DynamoDB trong một ứng dụng serverless cơ bản.",
+          "Thực hành các chức năng CRUD: tạo, đọc, cập nhật và xóa dữ liệu sản phẩm."
+        ],
+        "workflow": [
+          "First Cloud Journey Program"
+        ],
+        "project": {
+          "title": "Website quản lý sản phẩm Serverless",
+          "description": "Xây dựng website quản lý sản phẩm cơ bản bằng các dịch vụ AWS, có các chức năng tạo, xem, cập nhật và xóa sản phẩm.",
+          "services": [
+            "Amazon S3",
+            "API Gateway",
+            "AWS Lambda",
+            "DynamoDB"
+          ],
+          "href": "https://tai10012003.github.io/"
+        }
+      }
+    ],
+    "homeDescription": "Từ chương trình thực tập cloud tại AWS Vietnam đến công việc phát triển web tại XSUNT.",
+    "homeAction": "Xem chi tiết kinh nghiệm",
+    "homeExperiences": [
+      {
+        "role": "Web Developer · XSUNT Company",
+        "period": "04/2025 — Hiện tại",
+        "description": "Phát triển và bảo trì hệ thống dữ liệu dược phẩm; làm việc với Vue 2/3, ASP.NET Core, SQL Server, Highcharts và VXETable."
+      },
+      {
+        "role": "Cloud Developer Intern · AWS Vietnam",
+        "period": "09/2024 — 12/2024",
+        "description": "Tham gia First Cloud Journey Program, tìm hiểu dịch vụ AWS và xây dựng website quản lý sản phẩm serverless với chức năng CRUD."
+      }
+    ]
   }
 }

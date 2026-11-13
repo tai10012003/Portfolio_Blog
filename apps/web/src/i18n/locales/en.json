@@ -15,7 +15,7 @@
       },
       {
         "label": "Experience",
-        "href": "#experience"
+        "href": "/experience"
       },
       {
         "label": "Projects",
@@ -76,14 +76,14 @@
     ],
     "experiences": [
       {
-        "role": "Fullstack Developer",
-        "period": "2024 - Present",
-        "description": "Build product interfaces with React and Next.js, develop Node.js APIs, and prepare deployment flows with Docker."
+        "role": "Web Developer · XSUNT Company",
+        "period": "04/2025 — Present",
+        "description": "Developing and maintaining a pharmaceutical data system using Vue 2/3, ASP.NET Core, SQL Server, Highcharts, and VXETable."
       },
       {
-        "role": "Frontend Developer",
-        "period": "2022 - 2024",
-        "description": "Focused on scalable UI systems, state management, performance optimization, and practical user experience."
+        "role": "Cloud Developer Intern · AWS Vietnam",
+        "period": "09/2024 — 12/2024",
+        "description": "Joined the First Cloud Journey Program, explored AWS services, and built a serverless product management website with CRUD functionality."
       }
     ],
     "projects": [
@@ -170,7 +170,8 @@
     "experienceIntro": {
       "eyebrow": "Experience",
       "title": "The journey so far",
-      "description": "Experiences that have shaped how I write code and build products."
+      "description": "From a cloud internship at AWS Vietnam to web development at XSUNT.",
+      "actionLabel": "View work experience"
     },
     "projectsIntro": {
       "eyebrow": "Projects",
@@ -451,5 +452,112 @@
     ],
     "practiceLabel": "03 / From skills to products",
     "learningLabel": "04 / Still exploring"
+  },
+  "experiencePage": {
+    "breadcrumb": "Experience",
+    "eyebrow": "MY WORK JOURNEY",
+    "title": "Real-world experience.\nLessons for the road ahead.",
+    "intro": "From exploring AWS services during an internship to developing pharmaceutical data applications, each experience has deepened my understanding of building and maintaining products.",
+    "timelineLabel": "The journey",
+    "currentLabel": "Current",
+    "pastLabel": "Internship",
+    "tasksLabel": "Key responsibilities",
+    "outcomesLabel": "Learning & experience gained",
+    "stackLabel": "Technologies used",
+    "workflowLabel": "Working environment",
+    "projectLabel": "Internship project",
+    "projectLinkLabel": "View project link",
+    "skillsCta": "Explore my skills",
+    "closingTitle": "Let's talk about a new opportunity.",
+    "closingDescription": "Want to learn more about my experience or discuss a technical challenge? I'd be happy to connect.",
+    "contactCta": "Get in touch",
+    "jobs": [
+      {
+        "id": "xsunt",
+        "company": "XSUNT Company",
+        "monogram": "X",
+        "role": "Web Developer",
+        "period": "04/2025 — Present",
+        "current": true,
+        "summary": "Contributing to the development and maintenance of a pharmaceutical data management system in the Cobenfy project for Bristol Myers Squibb.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vue 2",
+          "Vue 3",
+          "ASP.NET Core",
+          "SQL Server"
+        ],
+        "tasks": [
+          "Contribute to the development and maintenance of the project's pharmaceutical data management system.",
+          "Implement and customize charts and tables with Highcharts and VXETable to display general sales data (TRx, NBRx) and execution data (Call, Sample, Program, Email, IVA…) across Geo, MHC, and HCP modules.",
+          "Fix chart and report issues involving display, sorting, filtering, column handling, and Excel/PowerPoint export to ensure correct operation."
+        ],
+        "outcomes": [
+          "Gained an understanding of pharmaceutical data structures: Prescription, Account, Geography, Sales, and Execution.",
+          "Improved problem-solving and debugging skills through practical system issues.",
+          "Gained hands-on experience with Vue.js 2 and ASP.NET Core APIs.",
+          "Worked in an Agile/Scrum environment, managed tasks with Jira, and collaborated with project managers and mentors."
+        ],
+        "workflow": [
+          "Agile / Scrum",
+          "Jira",
+          "Project managers & mentors"
+        ],
+        "project": null
+      },
+      {
+        "id": "aws-vietnam",
+        "company": "Amazon Web Services Vietnam Company",
+        "monogram": "aws",
+        "role": "Cloud Developer Intern",
+        "period": "09/2024 — 12/2024",
+        "current": false,
+        "summary": "Joined the First Cloud Journey Program, learned the fundamentals of AWS services, and applied that knowledge in an internship project.",
+        "technologies": [
+          "Amazon S3",
+          "AWS Lambda",
+          "Amazon API Gateway",
+          "Amazon DynamoDB"
+        ],
+        "tasks": [
+          "Acquired foundational knowledge of various AWS services.",
+          "Built an internship project and applied the knowledge learned in practice."
+        ],
+        "outcomes": [
+          "Learned how to combine S3, Lambda, API Gateway, and DynamoDB in a basic serverless application.",
+          "Practiced CRUD operations: creating, reading, updating, and deleting product data."
+        ],
+        "workflow": [
+          "First Cloud Journey Program"
+        ],
+        "project": {
+          "title": "Serverless Product Management Website",
+          "description": "Built a basic product management website using AWS services, with create, read, update, and delete functionality.",
+          "services": [
+            "Amazon S3",
+            "API Gateway",
+            "AWS Lambda",
+            "DynamoDB"
+          ],
+          "href": "https://tai10012003.github.io/"
+        }
+      }
+    ],
+    "homeDescription": "From a cloud internship at AWS Vietnam to web development at XSUNT.",
+    "homeAction": "View work experience",
+    "homeExperiences": [
+      {
+        "role": "Web Developer · XSUNT Company",
+        "period": "04/2025 — Present",
+        "description": "Developing and maintaining a pharmaceutical data system using Vue 2/3, ASP.NET Core, SQL Server, Highcharts, and VXETable."
+      },
+      {
+        "role": "Cloud Developer Intern · AWS Vietnam",
+        "period": "09/2024 — 12/2024",
+        "description": "Joined the First Cloud Journey Program, explored AWS services, and built a serverless product management website with CRUD functionality."
+      }
+    ]
   }
 }

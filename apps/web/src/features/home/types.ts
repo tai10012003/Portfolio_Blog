@@ -89,7 +89,7 @@ export type HomeDictionary = {
   hero: HeroContent;
   about: AboutContent;
   skillsIntro: SectionIntro & { actionLabel: string; softSkillsLabel: string; softSkills: string[] };
-  experienceIntro: SectionIntro;
+  experienceIntro: SectionIntro & { actionLabel: string };
   projectsIntro: SectionIntro & {
     actionLabel: string;
   };

@@ -1,0 +1,86 @@
+.work-home-link { margin-top: 22px; }
+.work-page-main { padding-block: 28px 48px; }
+.work-page-intro { max-width: 810px; padding-block: 38px 40px; }
+.work-page-intro h1 { font-size: clamp(30px, 3.5vw, 42px); line-height: 1.35; letter-spacing: -1.3px; font-weight: 650; white-space: pre-line; background: linear-gradient(115deg, var(--hero-title-start), var(--accent)); background-clip: text; color: transparent; }
+.work-page-intro > p:last-child { max-width: 730px; margin-top: 20px; color: var(--muted); font-size: 15px; line-height: 1.95; }
+.work-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 40px; align-items: start; }
+.work-sidebar { position: sticky; top: 110px; padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface-glass); }
+.work-sidebar-name { font-size: 15px; font-weight: 600; margin-bottom: 24px; color: var(--foreground); }
+.work-sidebar h2 { font-size: 13px; font-weight: 550; color: var(--muted); margin-bottom: 18px; }
+.work-sidebar ol { display: grid; gap: 22px; list-style: none; padding: 0; margin: 0; }
+.work-sidebar li a { display: flex; align-items: flex-start; gap: 11px; }
+.work-sidebar li strong { display: block; font-size: 13px; line-height: 1.7; font-weight: 550; }
+.work-sidebar li div > span { display: block; margin-top: 6px; font-size: 13px; color: var(--muted); }
+.work-sidebar li .arrow-icon { width: 14px; height: 14px; margin-top: 4px; color: var(--text-subtle); }
+.work-sidebar li a:hover strong { color: var(--accent); }
+.work-sidebar > .text-link { margin-top: 25px; border-top: 1px solid var(--line); padding-top: 18px; width: 100%; gap: 10px; }
+.work-nav-dot { width: 7px; height: 7px; margin-top: 7px; flex-shrink: 0; border-radius: 50%; border: 1px solid var(--border-strong); }
+.work-nav-dot.is-current { background: var(--accent); border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.work-jobs { display: grid; gap: 32px; border-left: 1px solid var(--line); padding-left: 26px; }
+.work-job-section { position: relative; scroll-margin-top: 110px; }
+.work-job-section::before { content: ""; position: absolute; top: 38px; left: -31px; width: 9px; height: 9px; border-radius: 50%; background: var(--background); border: 2px solid var(--border-hover); }
+.work-job-section:first-child::before { background: var(--accent); border-color: var(--accent); box-shadow: 0 0 0 5px var(--accent-soft); }
+.work-job-card { padding: 32px; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: 0 8px 30px color-mix(in srgb, var(--shadow-color) 4%, transparent); }
+.work-job-current { border-top: 3px solid var(--accent); }
+.work-job-top { display: flex; align-items: center; gap: 16px; }
+.work-company-mark { display: grid; place-items: center; flex-shrink: 0; width: 49px; height: 49px; border-radius: 14px; background: var(--violet-soft); color: var(--violet-text); font-size: 24px; font-weight: 600; }
+.work-company-aws-vietnam { background: var(--amber-soft); color: var(--amber-text); font-size: 18px; letter-spacing: -1px; }
+.work-company-name { font-size: 13px; color: var(--muted); line-height: 1.7; }
+.work-job-top h2 { font-size: 23px; letter-spacing: -.6px; line-height: 1.5; font-weight: 600; margin-top: 3px; }
+.work-status { margin-left: auto; flex-shrink: 0; border-radius: 7px; padding: 4px 9px; font-size: 13px; color: var(--text-subtle); background: var(--surface-soft); border: 1px solid var(--line); }
+.work-status.is-current { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
+.work-period { display: flex; gap: 10px; margin-top: 23px; font-size: 13px; color: var(--accent); font-weight: 500; }
+.work-period > span { color: var(--text-subtle); font-family: monospace; font-weight: 400; }
+.work-summary { margin-top: 15px; color: var(--muted); font-size: 15px; line-height: 1.95; }
+.work-job-card h3 { font-size: 15px; font-weight: 600; line-height: 1.6; }
+.work-stack { margin-top: 24px; }
+.work-stack ul { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 12px 0 0; padding: 0; }
+.work-stack li { font-size: 13px; color: var(--tag-text); background: var(--accent-soft); padding: 5px 10px; border-radius: 7px; }
+.work-responsibilities { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--line); }
+.work-bullet-list { list-style: none; display: grid; gap: 13px; padding: 0; margin: 15px 0 0; }
+.work-bullet-list li { position: relative; padding-left: 17px; color: var(--muted); font-size: 14px; line-height: 1.95; }
+.work-bullet-list li::before { content: ""; position: absolute; width: 5px; height: 5px; top: 11px; left: 0; border-radius: 50%; background: var(--border-hover); }
+.work-outcomes { margin-top: 26px; padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: linear-gradient(130deg, var(--feature-start), var(--feature-end)); }
+.work-outcomes h3 { color: var(--accent); }
+.work-environment { margin-top: 24px; }
+.work-environment > div { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+.work-environment span { font-size: 13px; color: var(--text-subtle); padding: 4px 9px; border: 1px solid var(--line); border-radius: 7px; }
+.work-project { margin-top: 26px; border: 1px solid var(--line); background: var(--surface-soft); padding: 24px; border-radius: 16px; }
+.work-project .eyebrow { font-size: 13px; margin-bottom: 10px; }
+.work-project > h3 { font-size: 19px; letter-spacing: -.3px; }
+.work-project > p:not(.eyebrow) { margin-top: 12px; color: var(--muted); font-size: 14px; line-height: 1.9; }
+.work-service-flow { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 20px 0; }
+.work-service-flow li { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 7px 10px; font-size: 13px; color: var(--foreground); }
+.work-page-main > div:last-child .about-closing h2 { font-size: 25px; font-weight: 600; }
+@media (max-width: 1000px) {
+  .work-layout { grid-template-columns: 205px minmax(0, 1fr); gap: 25px; }
+  .work-sidebar { padding: 20px; }
+  .work-job-card { padding: 26px; }
+  .work-job-top { flex-wrap: wrap; }
+  .work-status { margin-left: 0; }
+}
+@media (max-width: 800px) {
+  .work-layout { grid-template-columns: 1fr; gap: 28px; }
+  .work-sidebar { position: static; padding: 23px; }
+  .work-sidebar ol { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .work-sidebar-name { margin-bottom: 14px; }
+  .work-sidebar > .text-link { width: auto; margin-top: 20px; }
+  .work-status { margin-left: auto; }
+}
+@media (max-width: 640px) {
+  .work-page-main { padding-block: 23px 34px; }
+  .work-page-intro { padding-block: 30px; }
+  .work-page-intro h1 { font-size: 32px; letter-spacing: -.8px; }
+  .work-sidebar ol { grid-template-columns: 1fr; gap: 20px; }
+  .work-jobs { padding-left: 17px; gap: 25px; }
+  .work-job-section::before { left: -22px; }
+  .work-job-card { padding: 23px; border-radius: 20px; }
+  .work-job-top { gap: 13px; }
+  .work-job-top > div { flex: 1; min-width: 0; }
+  .work-job-top h2 { font-size: 21px; }
+  .work-company-mark { width: 42px; height: 42px; }
+  .work-status { margin-left: 0; }
+  .work-summary { font-size: 14px; }
+  .work-outcomes, .work-project { padding: 20px; }
+  .work-project > h3 { font-size: 18px; }
+}

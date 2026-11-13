@@ -77,7 +77,7 @@ test("toggle, persistence, device changes, other tabs, and blocked storage", () 
 });
 
 test("every CSS color token is defined, and dark theme includes readable surfaces", () => {
-  const css = ["globals.css", "about.css", "skills.css"].map((file) => readFileSync(new URL(`../src/app/${file}`, import.meta.url), "utf8")).join("\n");
+  const css = ["globals.css", "about.css", "skills.css", "experience.css"].map((file) => readFileSync(new URL(`../src/app/${file}`, import.meta.url), "utf8")).join("\n");
   const tokens = readFileSync(new URL("../src/app/theme.css", import.meta.url), "utf8");
   const defined = new Set([...tokens.matchAll(/(--[\w-]+)\s*:/g)].map((match) => match[1]));
   for (const [, token] of css.matchAll(/var\((--[\w-]+)\)/g)) assert.ok(defined.has(token), `Undefined token: ${token}`);
